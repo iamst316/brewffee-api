@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Bold Espresso",
+    "image": "https://en.wikipedia.org/wiki/File:Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg",
+    "category": "Espresso",
+    "manufacturer": {
+      "loc": "France",
+      "year_of_origin": 1822,
+      "country_of_origin": "France"
+    },
+    "brew": {
+      "base": {
+        "bean": "Arabica",
+        "grind": "Fine",
+        "roast": "Dark"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Chocolate Croissant"
+        },
+        {
+          "title": "Almond Biscotti"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 4.2,
+        "bitterness": 2.8,
+        "notes": [
+          {
+            "note": "Rich chocolate"
+          },
+          {
+            "note": "Hints of caramel"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Espresso Machine",
+          "origin": "Milan, Italy",
+          "characteristics": [
+            {
+              "feature": "Full-bodied"
+            },
+            {
+              "feature": "Intense flavor"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Freshly ground coffee"
+          },
+          {
+            "to_add": "Hot water"
+          }
+        ],
+        "preparation_time": "5 minutes"
+      }
+    }
+  }
+
+
+]
