@@ -44,6 +44,9 @@
             },
             {
               "feature": "Intense flavor"
+            },
+            {
+              "feature": "High caffeine content"
             }
           ]
         }
@@ -60,7 +63,388 @@
         "preparation_time": "5 minutes"
       }
     }
+  },
+  {
+    "name": "Smooth Morning Blend",
+    "image": "https://example.com/morning-blend-image.jpg",
+    "category": "Drip Coffee",
+    "manufacturer": {
+      "loc": "Coffee Hills",
+      "year_of_origin": 2010,
+      "country_of_origin": "CoffeeCountry"
+    },
+    "brew": {
+      "base": {
+        "bean": "Blend of Arabica and Robusta",
+        "grind": "Medium",
+        "roast": "Medium-Light"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Blueberry Muffin"
+        },
+        {
+          "title": "Oatmeal"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.8,
+        "bitterness": 2.0,
+        "notes": [
+          {
+            "note": "Subtle citrus"
+          },
+          {
+            "note": "Smooth and mild"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Drip Coffee Maker",
+          "origin": "Ethiopia",
+          "characteristics": [
+            {
+              "feature": "Balanced flavor"
+            },
+            {
+              "feature": "Aromatic"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Ground morning blend coffee"
+          },
+          {
+            "to_add": "Filtered water"
+          }
+        ],
+        "preparation_time": "8 minutes"
+      }
+    }
+  },
+  {
+    "name": "Mocha Delight",
+    "image": "https://example.com/mocha-image.jpg",
+    "category": "Specialty Coffee",
+    "manufacturer": {
+      "loc": "Coffee Valley",
+      "year_of_origin": 2015,
+      "country_of_origin": "CoffeeLand"
+    },
+    "brew": {
+      "base": {
+        "bean": "Blend of Arabica and Chocolate-infused beans",
+        "grind": "Coarse",
+        "roast": "Medium-Dark"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Chocolate Truffle"
+        },
+        {
+          "title": "Whipped Cream"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.5,
+        "bitterness": 4.0,
+        "notes": [
+          {
+            "note": "Decadent chocolate"
+          },
+          {
+            "note": "Velvety smoothness"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Espresso Machine",
+          "origin": "Colombia",
+          "characteristics": [
+            {
+              "feature": "Rich and indulgent"
+            },
+            {
+              "feature": "Chocolate aroma"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Chocolate-infused coffee beans"
+          },
+          {
+            "to_add": "Steamed milk"
+          },
+          {
+            "to_add": "Whipped cream"
+          }
+        ],
+        "preparation_time": "10 minutes"
+      }
+    }
+  },
+  {
+    "name": "Single-Origin Ethiopian Yirgacheffe",
+    "image": "https://example.com/ethiopian-yirgacheffe-image.jpg",
+    "category": "Single-Origin Coffee",
+    "manufacturer": {
+      "loc": "Coffee Plateau",
+      "year_of_origin": 2018,
+      "country_of_origin": "Ethiopia"
+    },
+    "brew": {
+      "base": {
+        "bean": "Ethiopian Yirgacheffe Arabica",
+        "grind": "Medium-Fine",
+        "roast": "Light"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Fresh Fruit Salad"
+        },
+        {
+          "title": "Vanilla Scone"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 4.0,
+        "bitterness": 2.2,
+        "notes": [
+          {
+            "note": "Citrus and floral undertones"
+          },
+          {
+            "note": "Bright acidity"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Pour-Over Set",
+          "origin": "Yirgacheffe, Ethiopia",
+          "characteristics": [
+            {
+              "feature": "Complex flavor profile"
+            },
+            {
+              "feature": "Distinctive aroma"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Freshly ground Ethiopian Yirgacheffe coffee"
+          },
+          {
+            "to_add": "Hot water (just off the boil)"
+          }
+        ],
+        "preparation_time": "6 minutes"
+      }
+    }
+  },
+  {
+    "name": "Decaf Delight",
+    "image": "https://example.com/decaf-delight-image.jpg",
+    "category": "Decaffeinated Coffee",
+    "manufacturer": {
+      "loc": "Coffee Haven",
+      "year_of_origin": 2020,
+      "country_of_origin": "CoffeeLand"
+    },
+    "brew": {
+      "base": {
+        "bean": "Decaffeinated Arabica",
+        "grind": "Medium",
+        "roast": "Medium-Dark"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Blueberry Muffin"
+        },
+        {
+          "title": "Plain Yogurt"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.0,
+        "bitterness": 1.5,
+        "notes": [
+          {
+            "note": "Subtle nutty flavor"
+          },
+          {
+            "note": "Smooth and mellow"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Drip Coffee Maker",
+          "origin": "Various",
+          "characteristics": [
+            {
+              "feature": "Balanced and mild"
+            },
+            {
+              "feature": "Low caffeine content"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Ground decaffeinated coffee"
+          },
+          {
+            "to_add": "Filtered water"
+          }
+        ],
+        "preparation_time": "7 minutes"
+      }
+    }
+  },
+  {
+    "name": "Caramel Macchiato Blend",
+    "image": "https://example.com/caramel-macchiato-image.jpg",
+    "category": "Flavored Coffee",
+    "manufacturer": {
+      "loc": "Coffee Heights",
+      "year_of_origin": 2017,
+      "country_of_origin": "CoffeeLand"
+    },
+    "brew": {
+      "base": {
+        "bean": "Arabica Blend",
+        "grind": "Coarse",
+        "roast": "Medium"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Caramel Donut"
+        },
+        {
+          "title": "Cinnamon Roll"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.5,
+        "bitterness": 2.8,
+        "notes": [
+          {
+            "note": "Sweet caramel flavor"
+          },
+          {
+            "note": "Creamy texture"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Espresso Machine",
+          "origin": "Blend",
+          "characteristics": [
+            {
+              "feature": "Deliciously aromatic"
+            },
+            {
+              "feature": "Rich caramel infusion"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Caramel macchiato coffee blend"
+          },
+          {
+            "to_add": "Steamed milk"
+          },
+          {
+            "to_add": "Caramel syrup"
+          }
+        ],
+        "preparation_time": "10 minutes"
+      }
+    }
+  },
+  {
+    "name": "Organic Peruvian Light Roast",
+    "image": "https://example.com/peruvian-light-roast-image.jpg",
+    "category": "Organic Coffee",
+    "manufacturer": {
+      "loc": "Peru",
+      "year_of_origin": 2019,
+      "country_of_origin": "Peru"
+    },
+    "brew": {
+      "base": {
+        "bean": "Organic Peruvian Arabica",
+        "grind": "Medium",
+        "roast": "Light"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Fresh Fruit Salad"
+        },
+        {
+          "title": "Whole Grain Toast"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.2,
+        "bitterness": 2.0,
+        "notes": [
+          {
+            "note": "Citrus and floral undertones"
+          },
+          {
+            "note": "Mild and balanced"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "French Press",
+          "origin": "Chanchamayo Valley, Peru",
+          "characteristics": [
+            {
+              "feature": "Smooth and clean finish"
+            },
+            {
+              "feature": "Sustainable farming practices"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Organic Peruvian light roast coffee"
+          },
+          {
+            "to_add": "Hot water (200°F)"
+          }
+        ],
+        "preparation_time": "5 minutes"
+      }
+    }
   }
+    
+  
+  
 
 
 ]

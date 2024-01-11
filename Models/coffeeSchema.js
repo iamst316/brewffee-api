@@ -46,5 +46,4 @@ const coffeeSchema = new mongoose.Schema({
   }
 })
 
-
 module.exports.coffeeModel = mongoose.model("coffee",coffeeSchema);

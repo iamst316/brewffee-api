@@ -5,7 +5,9 @@ const data = require("./dummy.json");
 
 module.exports.Inject = async () => {
     await coffeeModel.deleteMany({});
-    await coffeeModel.insertMany(data);    
+    await coffeeModel.insertMany(data);  
+    // const res = await coffeeModel.find();
+    // console.log(res);
 }
 
 

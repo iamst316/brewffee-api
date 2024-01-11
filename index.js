@@ -11,7 +11,7 @@ const {Inject} = require("./Models/injection.js")
 mongoose.connect(MONGO_URL)
   .then(()=>{
     console.log("MONGO DB connected successfully")
-    Inject();
+    // Inject();
   })
   .catch((err)=> console.log(err))
 
