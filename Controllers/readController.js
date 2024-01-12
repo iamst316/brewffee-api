@@ -15,7 +15,9 @@ module.exports.readRandomOne = async (req, res) => {
 module.exports.readByQuery = async (req, res) => {
   try {
     const { name, loc,bean } = req.query;
-    const filtered_results = await coffeeModel.find({$or: [{name: name},{"manufacturer.loc": loc},{"brew.base.bean": bean}] });
+    const regex = new RegExp(name, 'i');
+
+    const filtered_results = await coffeeModel.find({$or: [{name: regex},{"manufacturer.loc": loc},{"brew.base.bean": bean}] });
 
     res.send(filtered_results);
   } catch (err) {
