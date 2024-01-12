@@ -10,8 +10,9 @@ const {Inject} = require("./Models/injection.js")
 
 mongoose.connect(MONGO_URL)
   .then(()=>{
-    console.log("MONGO DB connected successfully")
-    // Inject();
+    console.log("MONGO DB connected successfully");
+
+    // Inject().then(()=>console.log("Replaced with new data!!!")).catch(err);
   })
   .catch((err)=> console.log(err))
 

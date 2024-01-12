@@ -441,6 +441,130 @@
         "preparation_time": "5 minutes"
       }
     }
+  },
+  {
+    "name": "Flat White",
+    "image": "https://en.wikipedia.org/wiki/File:Flat_white_coffee_with_pretty_feather_pattern.jpg",
+    "category": "Organic Milky Coffee",
+    "manufacturer": {
+      "loc": "Oceania",
+      "year_of_origin": 1960,
+      "country_of_origin": "Australia/New Zealand"
+    },
+    "brew": {
+      "base": {
+        "bean": "Colombian Arabica",
+        "grind": "Fine",
+        "roast": "Medium to Dark"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Fresh Fruit Salad"
+        },
+        {
+          "title": "Whole Grain Toast"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.2,
+        "bitterness": 2.0,
+        "notes": [
+          {
+            "note": "Citrus and floral undertones"
+          },
+          {
+            "note": "Mild and balanced"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Espresso Machine",
+          "origin": "South Kensingtion, London",
+          "characteristics": [
+            {
+              "feature": "Smooth and clean finish"
+            },
+            {
+              "feature": "Sustainable farming practices"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Organic Peruvian light roast coffee"
+          },
+          {
+            "to_add": "Hot water (200°F)"
+          }
+        ],
+        "preparation_time": "5 minutes"
+      }
+    }
+  },
+  {
+    "name": "Cafe americano",
+    "image": "https://en.wikipedia.org/wiki/File:Espresso_Americano.jpeg",
+    "category": "Diluted Espresso Coffee",
+    "manufacturer": {
+      "loc": "World War II",
+      "year_of_origin": 1940,
+      "country_of_origin": "Italy"
+    },
+    "brew": {
+      "base": {
+        "bean": "Colombian Arabica",
+        "grind": "Coarse",
+        "roast": "Dark"
+      },
+      "best_enjoyed_with": [
+        {
+          "title": "Fresh Fruit Salad"
+        },
+        {
+          "title": "Whole Grain Toast"
+        }
+      ],
+      "taste_profile": {
+        "acidity": 3.2,
+        "bitterness": 4.0,
+        "notes": [
+          {
+            "note": "Citrus and floral undertones"
+          },
+          {
+            "note": "Mild and balanced"
+          }
+        ]
+      },
+      "method": [
+        {
+          "equipment": "Espresso Machine",
+          "origin": "South Kensingtion, London",
+          "characteristics": [
+            {
+              "feature": "Smooth and clean finish"
+            },
+            {
+              "feature": "Sustainable farming practices"
+            }
+          ]
+        }
+      ],
+      "general_recipe": {
+        "ingredients": [
+          {
+            "to_add": "Organic Peruvian light roast coffee"
+          },
+          {
+            "to_add": "Hot water (200°F)"
+          }
+        ],
+        "preparation_time": "5 minutes"
+      }
+    }
   }
     
   
