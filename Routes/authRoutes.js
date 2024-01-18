@@ -1,7 +1,7 @@
 const {Hello, createEntry} = require("../Controllers/createControllers.js");
 const { deleteEntry } = require("../Controllers/deleteControllers.js");
 
-const { readRandomOne,readByQuery, readByPagination } = require("../Controllers/readController.js");
+const { readRandomOne,readByQuery, readByPagination, dynamicFilter } = require("../Controllers/readController.js");
 
 const {updateEntry} = require("../Controllers/updateControllers.js");
 const router = require("express").Router();
@@ -10,7 +10,7 @@ router.get("/", Hello);
 router.get("/random",readRandomOne);
 router.get("/read",readByQuery);
 router.get("/paginated",readByPagination);
-
+router.get("/filter", dynamicFilter);
 
 router.post("/create", createEntry)
 
